@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form đặt lịch tư vấn</title>
+</head>
+<body>
+    <h1>FORM ĐẶT LỊCH TƯ VẤN HỌC TẬP</h1>
+
+    <form action="" method="post">
+        <!-- Họ và tên -->
+        <label for="fullname">Họ và tên:</label><br>
+        <input type="text" id="fullname" name="fullname" 
+               placeholder="Nhập họ và tên" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" 
+               placeholder="Nhập email" required>
+        <br><br>
+
+        <!-- Số điện thoại -->
+        <label for="phone">Số điện thoại:</label><br>
+        <input type="tel" id="phone" name="phone" 
+               placeholder="Nhập số điện thoại" required>
+        <br><br>
+
+        <!-- Ngày tư vấn -->
+        <label for="date">Ngày tư vấn:</label><br>
+        <input type="date" id="date" name="date" required>
+        <br><br>
+
+        <!-- Nội dung tư vấn -->
+        <label for="message">Nội dung cần tư vấn:</label><br>
+        <textarea id="message" name="message" rows="4" 
+                  placeholder="Nhập nội dung tư vấn"></textarea>
+        <br><br>
+
+        <!-- Nút gửi -->
+        <button type="submit">Đặt lịch</button>
+    </form>
+</body>
+</html>

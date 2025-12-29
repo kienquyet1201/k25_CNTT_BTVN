@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <form action="">
+</head>
+
+<body>
+    <h2>Đăng kí sinh viên mới</h2>
+    <label for="name">Họ và tên:</label> <input type="text" name="name" id="name" value=""> <br><br>
+    <label for="birthdaydate">Ngày sinh đầy đủ:</label><input type="date" name="birthdaydate" id="birthdaydate"> <br><br>
+    <label for="studydate">Tháng và năm nhập học:</label><input type="month" name="studydate" id="studydate"> <br><br>
+    <label for="studydate2">Thời gian học:</label> <input type="time" name="studydate2" id="studydate2"> <br><br>
+    <label for="gender">Giới tính:</label><input type="radio" name="gender" id="gender" value="male">Nam <input
+        type="radio" name="gender" id="gender" value="female">Nữ <input type="radio" name="gender" id="gender"
+        value="other">Khác <br><br>
+    <label for="email">Email sinh viên:</label><input type="email" name="email" id="email"> <br><br>
+    <label for="password">Mật khẩu:</label> <input type="password" name="password" id="password"> <br><br>
+    <label for="target">Mục tiêu học tập:</label> <textarea name="target" id="target"></textarea> <br><br>
+    <label for="location">Cơ sở:</label> <select name="location" id="location">
+        <option value="location">Hà Nội</option>
+        <option value="location">Hồ Chí Minh</option>
+    </select> <br><br>
+    <label for="picture">Ảnh thẻ sinh viên:</label> <input type="file" name="picture" id="picture"><br><br>
+    <label for="suject">Môn học yêu thích:</label>
+    <input type="radio" name="suject" id="suject" value="favSuj">Toán học
+    <input type="radio" name="suject" id="suject" value="favSuj2">Lập trình
+    <input type="radio" name="suject" id="suject" value="favSuj3">Tiếng Anh
+    <input type="radio" name="suject" id="suject" value="favSuj4">Vật Lý <br><br>
+    <label for="study">Tiến độ học tập:</label><input type="range" name="study" id="study"> <br><br>
+    <label for="studyYear">Năm học thứ:</label><input type="number" name="studyYear" id="studyYear" min="1" max="4"> <br><br>
+    <label for="search">Khoa học máy tính:</label><input type="search" name="search" id="search"><br><br>
+    <label for="color">Màu sắc yêu thích</label><input type="color" name="color" id="color"><br><br>
+    <button type="reset">Hủy</button> <button type="reset"> Làm mới</button> <button type="submit"> Gửi</button>
+    </form>
+</body>
+</html>
